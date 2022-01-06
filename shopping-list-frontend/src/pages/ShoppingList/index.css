@@ -1,0 +1,67 @@
+.shopping-list{
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 40px;
+
+}
+
+.shopping-list .header {
+    margin-bottom: 40px;
+}
+
+.shopping-list .header >div {
+    display: flex;
+}
+
+.shopping-list .header >div input {
+    color: white;
+    background-color: #2f4f4f;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100%;
+    height: 30px;
+}
+
+.shopping-list .header h1 {
+    margin-bottom: 50px;
+}
+
+.shopping-list .header >div button {
+    background-color: #fec106;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.shopping-list .list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.shopping-list .list >div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping-list .list >div p {
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.shopping-list .list >div button {
+    width: 40px;
+    height: 30px;
+    background-color: #dc3546;
+    font-weight: bold;
+    color: white;
+}
